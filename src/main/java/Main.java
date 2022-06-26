@@ -103,13 +103,3 @@ public class Main {
         return ItemArray;
     }
 }
-
-
-/**
- * Bugi
- * 1. Raz posługujemy się Product, raz ItemArray a raz x - trzeba to uspójnić (złe zmienne)
- * 2. Niepotrzebny kod - sprawdzanie czy ItemArray jest różny od null (nigdy nie będzie nullem)
- * 3. Do poprawy System.exit(1) - nie powinno tego być, powinien być wyrzucony wyjątek
- * 4. Do poprawienia logika metody  AddItem - jest zawiła i można ją uprościć
- * 5. Do poprawy nazwy metod, które są dużymy literami
- */
